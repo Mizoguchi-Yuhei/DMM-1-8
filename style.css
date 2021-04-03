@@ -4,3 +4,46 @@
   box-sizing: border-box;
 }
 
+main {
+  width: 960px;
+  margin: 50px auto 10px auto;
+}
+
+.contents-list {
+  margin-bottom: 50px;
+}
+
+.list {
+  color: #686868;
+}
+
+.list-text {
+  padding: 20px 0 20px 20px;
+}
+
+.list:nth-child(odd) {
+  background-color: #eee;
+}
+
+.contents {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.box {
+  background-color: #ffe700;
+  width: 30%;
+  height: 200px;
+  margin-bottom: 40px;
+  margin-right: 5%;
+}
+
+.box:nth-child(1),
+.box:nth-child(5),
+.box:nth-child(9) {
+  background-color: #ff9900;
+}
+
+.box:nth-child(3n) {
+  margin-right: 0;
+}
